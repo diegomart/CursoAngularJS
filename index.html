@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<HTML>
+<HEAD>
+<TITLE>Curso de AngularJS</title>
+<meta charset="UTF-8">
+<link ref="stylesheet" type="text/css" herf="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="bower_components/normalize-css/normalize.css">
+        <!-- Font-Awesome -->
+        <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body ng-app="app">
+<center>
+<nav class="navbar navbar-inverse">
+            <a class="navbar-brand" href="#">What is Angular?</a>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+            </ul>
+        </nav><!-- navbar -->
+<input type="text" name="" ng-model="name" id="input" class="form-control" title="">
+<h2>Hola {{name}}</h2>
+
+<div class="container">
+	<h1 class="text-container">Angular.js</h1>
+	<kbd>{{message}}</kbd>
+
+<div ng-repeat="friend in friends">
+	
+	<label>Name:</label>{{friend.name}}
+	<label>Age:</label>{{friend.age}}
+
+</div>
+
+<h1>Pillos es {{pillos}}</h1>
+</div>
+
+<!-- jQuery -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Angular -->
+        <script src="bower_components/angular/angular.min.js"></script>
+        <!-- Javascript -->
+        <script src="app.js"></script>
+
+</center>
+
+</body>
+
+<HTML>

@@ -1,0 +1,25 @@
+{
+  "name": "Que es AngularJS",
+  "version": "0.0.0",
+  "description": "Curso de AngularJS",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "authors": [
+    "Diego"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.6"
+  }
+}
