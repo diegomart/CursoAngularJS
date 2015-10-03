@@ -26,8 +26,14 @@
 </nav>
 
 <div class="container-fluid">
-	<div class="row" ng-controller="MyCtrl">
-		<div class="col-md-4 text-center" ng-repeat="champion in champions">  
+	<div class="champions" ng-controller="MyCtrl">
+	<div class="search-box">
+		<h1 class="text-center"> Search Champion</h1>
+		<input type="text" ng-model="search.name" id ="input" class="form-control" value="" required="required" placeholder="Search..." title="">
+		
+	</div>
+
+		<div class="col-md-4 text-center" ng-repeat="champion in champions | filter:search">  
 			<h2> {{champion.name}}</h2>
 		<img ng-src="champions/{{champion.name}}_0.jpg" alt="{{champion.name}}">
 		<div class="alert alert-success" role="alert">

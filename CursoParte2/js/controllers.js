@@ -697,8 +697,7 @@ $scope.champions = [
         "support",
         "ranged"
       ]
-  }
-];
+  }];
 
 });
 
