@@ -22,7 +22,7 @@
 			
 			}];
 
-			$rootScope.pillos="Homosexual";
+			$rootScope.pillos="Alumno y programa en apache";
 
 		});
 }());
