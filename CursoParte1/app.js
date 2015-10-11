@@ -22,7 +22,7 @@
 			
 			}];
 
-			$rootScope.pillos="Homosexual";
+			$rootScope.pillos="?";
 
 		});
 }());
