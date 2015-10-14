@@ -22,7 +22,7 @@
 			
 			}];
 
-			$rootScope.pillos="?";
+			$rootScope.pillos="Alumno y programa en apache";
 
 		});
 }());
